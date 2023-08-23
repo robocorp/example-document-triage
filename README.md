@@ -9,8 +9,6 @@ You'll learn several key concepts of Robocorp platform:
 - Using [Vault](https://robocorp.com/docs/development-guide/variables-and-secrets/vault) for credentials and [Asset Storage](https://robocorp.com/docs/control-room/asset-storage) for configuration data
 - Creating input [Work Items](https://robocorp.com/docs/control-room/unattended/work-data-management) and using [Process library](https://robocorp.com/docs/libraries/rpa-framework/rpa-robocorp-process) to trigger other processes through [Control Room](https://robocorp.com/docs/control-room)
 
-TODO: ADD A VIDEO HERE
-
 ## Setup
 
 While the setup might seem to have multiple steps, it's all obvious once you have done it the first time! Just follow along. The following things need to be in place in order for you to run this bot yourself:
@@ -33,7 +31,7 @@ You need to create document handler Processes in Control Room. This project incl
 
 **OPTIONAL:** You can also create the `triage_documents` task as a Process in the Control Room, if you want to test the [email triggering](https://robocorp.com/docs/control-room/unattended/email-trigger). Create the Process for example with a name `DOCAI: Triage incoming attachments`, and make sure to take note of the email address when setting the details up. Alternatively, you can just run the triage from your development environment using the included test Work Items.
 
-TODO: ADD A PICTURE
+![processes](https://github.com/robocorp/example-document-triage/assets/40179958/4514ece5-3774-4ef7-9b6f-25cffb4a7dda)
 
 ### Create necessary Vault and Asset Storage items
 
