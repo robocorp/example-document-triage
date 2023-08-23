@@ -1,0 +1,24 @@
+# For more details on the format and content:
+# https://github.com/robocorp/rcc/blob/master/docs/recipes.md#what-is-in-robotyaml
+
+tasks:
+  Document Triage:
+    shell: python -m robocorp.tasks run tasks.py -t triage_documents
+  Log Work Item:
+    shell: python -m robocorp.tasks run tasks.py -t log_input_work_items
+
+devTasks: {}
+
+environmentConfigs:
+  - environment_windows_amd64_freeze.yaml
+  - environment_linux_amd64_freeze.yaml
+  - environment_darwin_amd64_freeze.yaml
+  - conda.yaml
+
+ignoreFiles:
+  - .gitignore
+artifactsDir: output
+PATH:
+  - .
+PYTHONPATH:
+  - .

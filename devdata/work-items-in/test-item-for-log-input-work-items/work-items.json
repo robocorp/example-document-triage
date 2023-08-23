@@ -1,0 +1,14 @@
+[
+  {
+      "payload": {
+         "message": "Hello World!"
+      },
+      "files": {}
+  },
+  {
+    "payload": {
+       "message": "Something else!"
+    },
+    "files": {}
+}  
+]
